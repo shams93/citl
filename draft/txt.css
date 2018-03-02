@@ -7,8 +7,24 @@
 .second-hr{
     margin-top: 30px; width: 100%;
 }
+
+/* this the event content */
+
+#tribe-events-pg-template .tribe-events-content h1, .tribe-events-after-html h1, .tribe-events-before-html h1{
+    background-color: aqua !important;
+}
+
+
+
+
+
+
+
+/* end of event content */
+
 .container {
    width: 100%;
+    margin-bottom: 50px !important; margin-top: 20px !important;
 }
 .container.second{
     margin-top: 100px;
@@ -17,17 +33,17 @@
     width: 100%; display: flex;
 }
 
-.col-3.table{
-	   border: solid; padding:3%; border-color: gainsboro; text-align: center;margin: 3px; 
+.col-4.table{
+	   border: solid; padding:2%; border-color: ghostwhite;text-align: center;margin: 40px; box-shadow: 1px 10px 20px 2px silver ;
 }
 #hero{
-    width: 200; margin-bottom: 15;
+    width: 150px; margin-bottom: 15;
 }
 #zero{
-    width: 130;
+    width: 85px;
 }
 #drop1{
-    width: 100;
+    width: 80px;
 }
 #inti{
     width: 250; margin-bottom: 15;
@@ -35,8 +51,8 @@
 #d2li{
     width: 200; margin-bottom: 15;
 }
-.col-3.table{
-    border: solid; padding: 3%; border-color: gainsboro; text-align: center; margin: 3px;
+/*.col-4.table{
+    border: solid; padding: 1%; border-color: gainsboro; text-align: center; margin: 3px;*/
 }
 
 .col-1 {width: 8.33%;}
